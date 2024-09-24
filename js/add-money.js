@@ -20,6 +20,8 @@ document.getElementById("btn-donate1").addEventListener("click",function(event){
 
    document.getElementById("input-add-money").value='';
 
+   
+
        //add to transaction history
     //    const p=document.createElement("p");
     //    p.innerText=` Added: ${addMoney} tk, Balance: ${newBalance} `;
@@ -28,6 +30,8 @@ document.getElementById("btn-donate1").addEventListener("click",function(event){
        
 
 })
+
+
 
 // for card 2 
 document.getElementById("btn-donate2").addEventListener("click",function(event){
