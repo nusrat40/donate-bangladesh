@@ -10,13 +10,21 @@ function getTextFieldValuById(id){
   return textNumber;
 }
 
-// function showSectionById(id){
-//     document.getElementById("add-money-form").classList.add("hidden");
-//     document.getElementById("cash-out-form").classList.add("hidden");
-//     document.getElementById("transaction-form").classList.add("hidden");
+function showSectionById(id){
+    document.getElementById("donation-form").classList.add("hidden");
+    document.getElementById("history-form").classList.add("hidden");
 
-//     //show the form which is clicked
-//     document.getElementById(id).classList.remove("hidden");
+    //show the form which is clicked
+    document.getElementById(id).classList.remove("hidden");
 
-// }
+}
+
+function addButtonColor(id){
+  document.getElementById("btn-donation").classList.remove("bg-[#B4F461]");
+  document.getElementById("btn-history").classList.remove("bg-[#B4F461]");
+
+  
+  document.getElementById(id).classList.add("bg-[#B4F461]");
+
+}
 
