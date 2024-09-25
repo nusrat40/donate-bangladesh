@@ -155,7 +155,7 @@ document.getElementById("btn-donate3").addEventListener("click",function(event){
    div.classList.add("p-8");
    div.classList.add("rounded-lg");
    div.innerHTML=`
-   <p>${addMoney} Taka is ${place}</p>
+   <p>${addMoney} Taka is donated for ${place}</p>
    <p>Date: ${bangladeshDate}</p>
    `;
    document.getElementById("history-container").appendChild(div);
